@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Faster One|Sigmar One' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<a href="#">
+  <div id="mybutton">
+    <button class="top"> <span class="glyphicon glyphicon-chevron-up"></span> Top</button>
+  </div>
+</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span style="font-family: 'Faster One'; font-size:40px; color:#FF6600;">E<span style="color:white">x</span></span></a>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#coming_soon">COMING SOON..</a></li>
+        <li><a href="#offers"><b>OFFERS</b></a></li>
+        <li><a href="#popular"><b>POPULAR</b></a></li>
+        <li><a href="#reviews"><b>REVIEWS</b></a></li>
+        <li><a href="https://www.google.com/covid19/" target="_blank"><b><span style="font-family: 'Arial'; font-size:15px; background-color:#FF6600;padding:5px;border-radius:20px;">COVID-19 Advisory</span></b></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="bg">
+    <div class="jumbotron" style="background:none;">
+        <div class="container text-center hero-text">
+          <h1><span style="font-family: 'Faster One';color:#FF6600;">E<span style="color:white">x</span> press</span></h1>      
+          <p>1-day delivery. <b>Guaranteed.</b></p>
+          <a href="#offers"><button class="butn"><em><b>Check Me Out</b></em></button></a>
+        </div>
+    </div>
+</div>
+
+  
+<div class="container-fluid bg-3 text-center" id="coming_soon">    
+  <h2><b>LAUNCHING SOON...</b></h2><br>
+  <h4 style="color:grey"><b>Express</b> will soon be offering the following products and services: Medicines, Grocery, Movies and Pet Care Products.Stay Tuned!<br><br></h4>
+  <div class="row">
+  <div class="col-sm-12 zoom">
+    <div class='photo-stack'>
+      <img src="https://dlg7f0e93aole.cloudfront.net/wp-content/uploads/medicines.jpg" width="300px" height="200px">
+      <img src="https://www.moneycrashers.com/wp-content/uploads/2012/08/online-grocery-home-delivery-service.jpg" width="300px" height="200px">
+      <img src="https://thumbs.dreamstime.com/b/young-family-watching-tv-together-living-room-young-family-watching-tv-together-119830268.jpg" width="300px" height="200px">
+      <img src="https://americanlibrariesmagazine.org/wp-content/uploads/2015/11/0116ebooks.jpg" width="300px" height="200px" >
+      <img src='http://placekitten.com/300/200?image=5'>
+    </div>
+  </div>
+</div><br>
+</div><br>
+
+<div class="container-fluid bg-3 text-center" style="background-color: #f6f6f6;padding:15px;" id="offers"> 
+  <h2><b>SURPRISE!</b></h2><br>
+  <h4 style="color:grey">Check out exclusive offers on select products and brands, available only through <b>Express</b>:<br><br></h4>   
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/718dVtlvM6L._UY550_.jpg" alt="Jeans" style="width:100%">
+        <h1>Jeans, </h1><h3><em>Annie</em></h3>
+        <p class="price"><del>6999 INR</del><span style="color: red;"> 4999 INR</span></p>
+        <p><button data-toggle="modal" data-target="#myModal">Know More...</button></p>
+      </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Terms and Conditions</h3>
+          </div>
+          <div class="modal-body">
+            <p>
+              Offers valid only till 28 August 2020, and only through credit-card purchase.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="card">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61xic1lDgyL._AC_UX342_.jpg" alt="Suit" style="width:100%">
+        <h1>Suit, </h1><h3><em>RiPe</em></h3>
+        <p class="price"><del>4999 INR</del><span style="color: red;"> 2999 INR</span></p>
+        <p><button data-toggle="modal" data-target="#myModal">Know More...</button></p>
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="card">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61j4qYKew8L._AC_UX522_.jpg" alt="Watch" style="width:100%">
+        <br><br>
+        <h1>Watch, </h1><h3><em>Aesop Ark</em></h3>
+        <p class="price"><del>9999 INR</del><span style="color: red;"> 5999 INR</span></p>
+        <p><button data-toggle="modal" data-target="#myModal">Know More...</button></p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+        <img src="images/boot.jpeg" alt="Boots" style="width:100%">
+        <h1>Boots, </h1><h3><em>Solo</em></h3>
+        <p class="price"><del>8999 INR</del><span style="color: red;"> 6999 INR</span></p>
+        <p><button data-toggle="modal" data-target="#myModal">Know More...</button></p>
+      </div>
+    </div>
+  </div>
+  
+</div><br><br>
+
+
+<div class="container-fluid bg-3 text-center" id="popular">    
+  <h2><b>MOST BOUGHT</b></h2><br>
+  <h4 style="color:grey">Check out most popular items on <b>Express</b>, over last 30 days:<br><br></h4>
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="card1">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11418684/2020/2/27/e8403838-ed07-4965-bd44-58d1a94221e11582805443556SportsShoesPumaMenSportsShoesPumaMenSportsShoesPumaWomenSpor5.jpg" alt="Shoes" style="width:80%;height:200px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Puma Sports Shoes</b></h4>
+          <p>
+            Avg units sold per day: <b>271</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2"> 
+      <div class="card1">
+        <img src="https://i.ebayimg.com/images/g/KwkAAOSwy4hUTYYT/s-l500.jpg" alt="Shoes" style="width:80%;height:200px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Bella Pumps</b></h4>
+          <p>
+            Avg units sold per day: <b>359</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2"> 
+      <div class="card1">
+        <img src="https://i.ebayimg.com/thumbs/images/g/mvIAAOSw1~JZO6Q3/s-l225.webp" alt="Bag" style="width:80%;height:200px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Caprese Handbag</b></h4>
+          <p>
+            Avg units sold per day: <b>462</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card1">
+        <img src="https://i.ebayimg.com/thumbs/images/g/erQAAOSw4O1eeP5v/s-l225.webp" alt="Laptop" style="width:80%;height:200px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Asus x7 laptop</b></h4>
+          <p>
+            Avg units sold per day: <b>555</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card1">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/10168075/2019/12/23/ff341a1b-36c0-4f68-8506-76a1b2e88f8c1577101836526-HRX-by-Hrithik-Roshan-Women-Navy-Blue-Solid-Rapid-Dry-Traini-1.jpg" alt="Avatar" style="width:80%;height:200px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Jockey Dry shorts</b></h4>
+          <p>
+            Avg units sold per day: <b>791</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card1">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11285978/2020/2/14/7779cab8-7c10-437b-b083-1fcb986133bf1581656790320-Nike-Women-Tops-2931581656789115-1.jpg" alt="Avatar" style="width:80%;height:200px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Nike Sleeveless Top</b></h4>
+          <p>
+            Avg units sold per day: <b>885</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card1">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/8626291/2019/1/28/8d8aae8f-a67e-45ad-8850-a7e4571660f81548672701610-SWHF-Red-Rectangular-Anti-Skid-Coir-Doormat-5051548672701265-1.jpg" alt="Mat" style="width:80%;height:300px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Rogue Floor Mat</b></h4>
+          <p>
+            Avg units sold per day: <b>993</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="card1">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/43113/2019/1/25/5394e5e4-2039-4a78-a76d-4fa4289dd96c1548408494036-JAGUAR-Men-Classic-Black-Eau-De-Toilette-100-ml-825154840849-1.jpg" alt="Scent" style="width:80%;height:300px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Jaguar Scent</b></h4>
+          <p>
+            Avg units sold per day: <b>1271</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3"> 
+      <div class="card1">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/9359183/2019/5/24/9c238174-018e-4e94-88fa-bc5e08f85e601558675627365-United-Colors-of-Benetton-Unisex-Oval-Sunglasses-BE7004MI-63-1.jpg" alt="Glasses" style="width:80%;height:300px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Ray Ban Aviator Sunglasses</b></h4>
+          <p>
+            Avg units sold per day: <b>1399</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card1">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/4/18/dd86e493-5bbd-4715-aefd-5da9464a1e991555548120652-1.jpg"  class="image-responsive" alt="Avatar" style="width:80%;height:300px;padding:20px;border-radius:50%">
+        <div class="container1">
+          <h4><b>Beautify Lampshade</b></h4>
+          <p>
+            Avg units sold per day: <b>1401</b> <br>
+            Avg customer rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<<div class="container-fluid bg-3" style="background-color: #f6f6f6;padding:15px;" id="reviews">  
+      <h2 style="text-align: center;"><b>USER REVIEWS</b></h2><br>
+  <div class="col-sm-5">
+    <h4 style="color:grey;text-align:center;">See the reviews of our customers ...<br><br></h4>
+    <div class="container2">
+      <div id="review">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/11285978/2020/2/14/7779cab8-7c10-437b-b083-1fcb986133bf1581656790320-Nike-Women-Tops-2931581656789115-1.jpg" alt="Avatar" style="width:90px">
+        <span id="user"><h3>Amrita Chaurasia</h3></span>
+      </div>
+      <p>
+        Excellent, fast and seamless service. Instant reply on queries and cashback on 7-day return just makes it even better.
+      </p>
+    </div>  
+    <div class="container2">
+      <div id="review">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61xic1lDgyL._AC_UX342_.jpg" alt="Avatar" style="width:90px">
+        <span id="user"><h3>Kanan De</h3></span>
+      </div>
+      <p>
+        Wide range of products, along with a wide range of payment methods. Transaction service is what I like the most, alongside their obvious guarantee of 1-day delivery.
+      </p>
+    </div>
+    <div class="container2">
+      <div id="review">
+        <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/9359183/2019/5/24/9c238174-018e-4e94-88fa-bc5e08f85e601558675627365-United-Colors-of-Benetton-Unisex-Oval-Sunglasses-BE7004MI-63-1.jpg"" alt="Avatar" style="width:90px">
+        <span id="user"><h3>Pankaj Kulkarni</h3></span>
+      </div>
+      <p>
+        No annoying ads.Wow.
+      </p>
+    </div>
+  </div>  
+  <div class="col-sm-7">
+    <h4 style="color:grey;text-align:center;">..or add one yourself<br><br></h4>
+    <div class="row">
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="name" name="name" placeholder="First Name" type="text" required>
+      </div>
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="name" name="name" placeholder="Last Name" type="text" required>
+      </div>
+    </div>
+    <textarea class="form-control" id="comments" name="comments" placeholder="Say something..." rows="5"></textarea><br>
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <button class="btn btn-default pull-right" type="submit">Send</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="images/shop.png" alt="shop" width="50%" height="300px" class="image-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid" style="background-color: #660099; color:#fff;">
+  <div class="col-sm-6">
+    <p><a href="#">Terms and Conditions</a><br><a href="#">Privacy Policy</a> <br><a href="#"> Contact Us</a> <br></p>
+  </div>
+  <div class="col-sm-6" style="text-align: right;">
+    <span style="font-family: 'Faster One'; font-size:40px; color:#FF6600;">E<span style="color:white">x</span></span>
+    <p>Express Inc <br>©2020, Express.com, Inc and its affiliates.
+		</p>
+  </div>
+</footer>
+
+</body>
+</html>
